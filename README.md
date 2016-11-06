@@ -1,3 +1,5 @@
+# Efficient K-means seeding using binary tree
+
 Tree K-means implementation of seeding before Lloyd's algorithm.
 
 Tree K-means implementation runs in $O(log(n)kd)$ time in comparison to K-means++ which runs in $O(nkd)$ while at the same time not requiring significant memory overhead. This is a huge computational advancement as seeding for large datasets is extremely computationally expensive.
