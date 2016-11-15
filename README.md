@@ -2,7 +2,7 @@
 
 Tree K-means implementation of seeding before Lloyd's algorithm.
 
-Tree K-means implementation runs in $O(log(n)kd)$ time in comparison to K-means++ which runs in $O(nkd)$ while at the same time not requiring significant memory overhead. This is a huge computational advancement as seeding for large datasets is extremely computationally expensive.
+Tree K-means implementation runs in *O(log(n)kd)* time in comparison to K-means++ which runs in *O(nkd)* while at the same time not requiring significant memory overhead. This is a huge computational advancement as seeding for large datasets is extremely computationally expensive.
 
 Written in Cython using Numpy dependency and compiled using distutils. You can change the dataset in k_tree_means.pyx file and modify compiler directives to Cython in setup.py.
 
