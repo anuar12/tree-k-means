@@ -1,4 +1,4 @@
-# Efficient K-means seeding using binary tree
+# Faster Seeding than K-means++ several orders of magnitude using binary tree. The drop in quantization error is insignificant.
 
 Tree K-means implementation of seeding before Lloyd's algorithm.
 
